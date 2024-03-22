@@ -102,11 +102,12 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);ENGINE_LIB;ENGINE_MS_COMPILER;ENGINE_DEBUG=2</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);ENGINE_LIB;ENGINE_MS_COMPILER;ENGINE_DEBUG=2;ENGINE_GLFW_WINDOW</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)myEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)myEngine\src;$(SolutionDir)glfw\include;$(SolutionDir)myEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -119,10 +120,12 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);SUN_LIB;ENGINE_LIB;ENGINE_MS_COMPILER</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);SUN_LIB;ENGINE_LIB;ENGINE_MS_COMPILER;ENGINE_GLFW_WINDOW</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)myEngine\src;$(SolutionDir)glfw\include;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,16 +136,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="include\myEngine.h" />
+    <ClInclude Include="src\codeGLFW\WindowGLFW.h" />
     <ClInclude Include="src\EngineApp.h" />
+    <ClInclude Include="src\EngineWindow.h" />
     <ClInclude Include="src\pch.h" />
     <ClInclude Include="src\Utility.h" />
+    <ClInclude Include="src\WindowImpl.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\codeGLFW\WindowGLFW.cpp" />
     <ClCompile Include="src\EngineApp.cpp" />
+    <ClCompile Include="src\EngineWindow.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\glfw_build\src\glfw.vcxproj">
+      <Project>{96c003d0-25bb-3718-8fa4-b55c65f9e46e}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

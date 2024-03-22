@@ -1,0 +1,3 @@
+C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/S24_Dariel_Martinez/cmake-build-debug/CMakeFiles/Game.dir
+C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/S24_Dariel_Martinez/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/S24_Dariel_Martinez/cmake-build-debug/CMakeFiles/rebuild_cache.dir

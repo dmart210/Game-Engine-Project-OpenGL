@@ -21,13 +21,13 @@ int main() {\
 
 
 #if ENGINE_DEBUG==2
-#define ENGINE_ERROR(x) std::cout << x << std::endl;
-#define ENGINE_LOG(x) std::cout << x << std::endl;
+	#define ENGINE_ERROR(x) std::cout << x << std::endl;
+	#define ENGINE_LOG(x) std::cout << x << std::endl;
 
 #elif ENGINE_DEBUG == 1
-#define ENGINE_ERROR(x) std::cout << x << std::endl;
-#define ENGINE_LOG(x) 
+	#define ENGINE_ERROR(x) std::cout << x << std::endl;
+	#define ENGINE_LOG(x) 
 #else 
-#define ENGINE_ERROR(x)
-#define ENGINE_LOG(x)
+	#define ENGINE_ERROR(x)
+	#define ENGINE_LOG(x)
 #endif// Logging
