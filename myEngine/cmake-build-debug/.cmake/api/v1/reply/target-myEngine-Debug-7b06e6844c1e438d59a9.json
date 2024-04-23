@@ -40,7 +40,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 37,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -52,13 +52,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 30,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 33,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -68,9 +62,15 @@
 				"parent" : 0
 			},
 			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 36,
+				"line" : 37,
 				"parent" : 0
 			}
 		]
@@ -100,6 +100,10 @@
 				{
 					"backtrace" : 4,
 					"define" : "ENGINE_MS_COMPILER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SUN_GLFW_WINDOW"
 				},
 				{
 					"define" : "myEngine_EXPORTS"
@@ -152,6 +156,10 @@
 				{
 					"backtrace" : 4,
 					"define" : "ENGINE_MS_COMPILER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SUN_GLFW_WINDOW"
 				},
 				{
 					"define" : "myEngine_EXPORTS"

@@ -50,7 +50,7 @@ cmake_ninja_workdir = C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Ma
 build cmake_object_order_depends_target_myEngine: phony || CMakeFiles/myEngine.dir
 
 build CMakeFiles/myEngine.dir/cmake_pch.hxx.gch: CXX_COMPILER__myEngine_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx.cxx | CMakeFiles/myEngine.dir/cmake_pch.hxx || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DSUN_GLFW_WINDOW -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\cmake_pch.hxx.gch.d
   FLAGS = -g -Winvalid-pch -x c++-header -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
   INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine
@@ -58,7 +58,7 @@ build CMakeFiles/myEngine.dir/cmake_pch.hxx.gch: CXX_COMPILER__myEngine_Debug C$
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir
 
 build CMakeFiles/myEngine.dir/src/EngineApp.obj: CXX_COMPILER__myEngine_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/EngineApp.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DSUN_GLFW_WINDOW -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\EngineApp.obj.d
   FLAGS = -g -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
   INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine
@@ -66,7 +66,7 @@ build CMakeFiles/myEngine.dir/src/EngineApp.obj: CXX_COMPILER__myEngine_Debug C$
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
 build CMakeFiles/myEngine.dir/src/EngineWindow.obj: CXX_COMPILER__myEngine_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/EngineWindow.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DSUN_GLFW_WINDOW -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\EngineWindow.obj.d
   FLAGS = -g -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
   INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine
@@ -74,7 +74,7 @@ build CMakeFiles/myEngine.dir/src/EngineWindow.obj: CXX_COMPILER__myEngine_Debug
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
 build CMakeFiles/myEngine.dir/src/codeGLFW/WindowGLFW.obj: CXX_COMPILER__myEngine_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/codeGLFW/WindowGLFW.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_LIB -DENGINE_MS_COMPILER -DSUN_GLFW_WINDOW -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\codeGLFW\WindowGLFW.obj.d
   FLAGS = -g -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
   INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine

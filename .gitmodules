@@ -1,3 +1,7 @@
 [submodule "glfw"]
 	path = glfw
 	url = git@github.com:glfw/glfw.git
+
+[submodule "GLAD"]
+	path = GLAD
+	url = git@github.com:ValtoLibraries/GLAD.git
