@@ -32,6 +32,10 @@ void BasicGame::OnUpdate()
 {
 	keyChange();
 	DrawCurrentImage(currentSprite);
+	if (currentSprite->GetXCoord() < 0) currentSprite->SetCoords(0, currentSprite->GetYCoord());
+	if (currentSprite->GetYCoord() < 0) currentSprite->SetCoords(currentSprite->GetXCoord(), 0);
+	if (currentSprite->GetXCoord() >= Engine::EngineWindow::GetWindow()->GetWidth()) currentSprite->SetCoords(Engine::EngineWindow::GetWindow()->GetWidth() - 50, currentSprite->GetYCoord());
+	if (currentSprite->GetYCoord() >= Engine::EngineWindow::GetWindow()->GetHeight()) currentSprite->SetCoords(currentSprite->GetXCoord(),Engine::EngineWindow::GetWindow()->GetHeight() - 50);
 	DrawEnemies();
 	CheckIntersection();
 	if (isDead) {

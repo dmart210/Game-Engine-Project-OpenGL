@@ -17,7 +17,7 @@ namespace Engine
 		EngineWindow::GetWindow()->Create(1000, 800);
 
 		Renderer::Init();
-		SetWindowCloseCallback([this]() {DefaultWindowCloseHandler();});
+		SetWindowCloseCallback([this]() {DefaultWindowCloseHandler();  });
 
 	}
 	void EngineApp::Initialize()
