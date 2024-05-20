@@ -102,9 +102,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);ENGINE_LIB;ENGINE_MS_COMPILER;ENGINE_DEBUG=2;ENGINE_GLFW_WINDOW</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);ENGINE_LIB;ENGINE_MS_COMPILER;ENGINE_DEBUG=2;ENGINE_GLFW_WINDOW;ENGINE_OPENGL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)stbi;$(SolutionDir)glad\include;$(SolutionDir)myEngine\src;$(SolutionDir)glfw\include;$(SolutionDir)myEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -120,9 +120,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);SUN_LIB;ENGINE_LIB;ENGINE_MS_COMPILER;ENGINE_GLFW_WINDOW</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);SUN_LIB;ENGINE_LIB;ENGINE_MS_COMPILER;ENGINE_GLFW_WINDOW;ENGINE_OPENGL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>$(SolutionDir)stbi;$(SolutionDir)glad\include;$(SolutionDir)myEngine\src;$(SolutionDir)glfw\include;</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -137,20 +137,40 @@
   <ItemGroup>
     <ClInclude Include="include\myEngine.h" />
     <ClInclude Include="src\codeGLFW\WindowGLFW.h" />
+    <ClInclude Include="src\codeOpenGL\ImageOpenGL.h" />
+    <ClInclude Include="src\codeOpenGL\RendererOpenGL.h" />
+    <ClInclude Include="src\codeOpenGL\ShaderOpenGL.h" />
     <ClInclude Include="src\EngineApp.h" />
     <ClInclude Include="src\EngineWindow.h" />
+    <ClInclude Include="src\HappyEvents.h" />
+    <ClInclude Include="src\HappyKeys.h" />
+    <ClInclude Include="src\Image.h" />
+    <ClInclude Include="src\ImageImplement.h" />
     <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\Renderer.h" />
+    <ClInclude Include="src\RendererImplement.h" />
+    <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\ShaderImplement.h" />
+    <ClInclude Include="src\Unit.h" />
     <ClInclude Include="src\Utility.h" />
     <ClInclude Include="src\WindowImpl.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\codeGLFW\WindowGLFW.cpp" />
+    <ClCompile Include="src\codeOpenGL\ImageOpenGL.cpp" />
+    <ClCompile Include="src\codeOpenGL\RendererOpenGL.cpp" />
+    <ClCompile Include="src\codeOpenGL\ShaderOpenGL.cpp" />
     <ClCompile Include="src\EngineApp.cpp" />
     <ClCompile Include="src\EngineWindow.cpp" />
+    <ClCompile Include="src\HappyEvents.cpp" />
+    <ClCompile Include="src\Image.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\glad\glad.vcxproj">

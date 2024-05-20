@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "EngineWindow.h"
 #include "codeGLFW/WindowGLFW.h"
+#include "HappyEvents.h"
 
 namespace Engine {
 	EngineWindow::EngineWindow()
@@ -52,5 +53,19 @@ namespace Engine {
 	int EngineWindow::GetHeight() const
 	{
 		return mWindow->GetHeight();
+	}
+
+
+	void EngineWindow::SetKeyPressedCallback(std::function<void(const KeyPressed&)>& callbackFunc)
+	{
+		mWindow->SetKeyPressedCallback(callbackFunc);
+	}
+	void EngineWindow::SetKeyReleasedCallback(std::function<void(const KeyReleased&)>& callbackFunc)
+	{
+		mWindow->SetKeyReleasedCallback(callbackFunc);
+	}
+	void EngineWindow::SetWindowCloseCallback(std::function<void()>& callbackFunc)
+	{
+		mWindow->SetWindowCloseCallback(callbackFunc);
 	}
 }

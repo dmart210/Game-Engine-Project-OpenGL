@@ -1,4 +1,4 @@
-add_executable(Game Source.cpp)
+add_executable(Game Source.cpp BasicGame.h BasicGame.cpp)
 
 include_directories("../myEngine/include")
 
