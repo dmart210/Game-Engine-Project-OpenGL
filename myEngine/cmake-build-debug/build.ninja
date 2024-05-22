@@ -50,90 +50,98 @@ cmake_ninja_workdir = C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Ma
 build cmake_object_order_depends_target_myEngine: phony || CMakeFiles/myEngine.dir
 
 build CMakeFiles/myEngine.dir/cmake_pch.hxx.gch: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx.cxx | CMakeFiles/myEngine.dir/cmake_pch.hxx || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\cmake_pch.hxx.gch.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -x c++-header -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir
 
 build CMakeFiles/myEngine.dir/src/EngineApp.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/EngineApp.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\EngineApp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
 build CMakeFiles/myEngine.dir/src/EngineWindow.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/EngineWindow.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\EngineWindow.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
 build CMakeFiles/myEngine.dir/src/codeGLFW/WindowGLFW.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/codeGLFW/WindowGLFW.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\codeGLFW\WindowGLFW.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src\codeGLFW
 
 build CMakeFiles/myEngine.dir/src/Renderer.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/Renderer.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\Renderer.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
 build CMakeFiles/myEngine.dir/src/codeOpenGL/RendererOpenGL.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/codeOpenGL/RendererOpenGL.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\codeOpenGL\RendererOpenGL.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src\codeOpenGL
 
 build CMakeFiles/myEngine.dir/src/Shader.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/Shader.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\Shader.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
 build CMakeFiles/myEngine.dir/src/codeOpenGL/ShaderOpenGL.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/codeOpenGL/ShaderOpenGL.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\codeOpenGL\ShaderOpenGL.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src\codeOpenGL
 
 build CMakeFiles/myEngine.dir/src/Image.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/Image.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\Image.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
 build CMakeFiles/myEngine.dir/src/codeOpenGL/ImageOpenGL.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/codeOpenGL/ImageOpenGL.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\codeOpenGL\ImageOpenGL.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src\codeOpenGL
 
+build CMakeFiles/myEngine.dir/src/HappyEvents.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/HappyEvents.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEP_FILE = CMakeFiles\myEngine.dir\src\HappyEvents.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  OBJECT_DIR = CMakeFiles\myEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
+
 build CMakeFiles/myEngine.dir/src/Unit.obj: CXX_COMPILER__myEngine_unscanned_Debug C$:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/src/Unit.cpp | CMakeFiles/myEngine.dir/cmake_pch.hxx CMakeFiles/myEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_myEngine
-  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_MS_COMPILER -DENGINE_OPENGL -DmyEngine_EXPORTS
+  DEFINES = -DENGINE_DEBUG=2 -DENGINE_GLFW_WINDOW -DENGINE_LIB -DENGINE_OPENGL -DmyEngine_EXPORTS
   DEP_FILE = CMakeFiles\myEngine.dir\src\Unit.obj.d
   FLAGS = -g -fdiagnostics-color=always -Winvalid-pch -include C:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/cmake-build-debug/CMakeFiles/myEngine.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
+  INCLUDES = -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glfw/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../myEngine/src -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../glad/include -IC:/Users/mdari/OneDrive/Desktop/C++Projects/S24_Dariel_Martinez/myEngine/../stbi
   OBJECT_DIR = CMakeFiles\myEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\myEngine.dir\src
 
@@ -145,7 +153,7 @@ build CMakeFiles/myEngine.dir/src/Unit.obj: CXX_COMPILER__myEngine_unscanned_Deb
 #############################################
 # Link the shared library libmyEngine.dll
 
-build libmyEngine.dll libmyEngine.dll.a: CXX_SHARED_LIBRARY_LINKER__myEngine_Debug CMakeFiles/myEngine.dir/src/EngineApp.obj CMakeFiles/myEngine.dir/src/EngineWindow.obj CMakeFiles/myEngine.dir/src/codeGLFW/WindowGLFW.obj CMakeFiles/myEngine.dir/src/Renderer.obj CMakeFiles/myEngine.dir/src/codeOpenGL/RendererOpenGL.obj CMakeFiles/myEngine.dir/src/Shader.obj CMakeFiles/myEngine.dir/src/codeOpenGL/ShaderOpenGL.obj CMakeFiles/myEngine.dir/src/Image.obj CMakeFiles/myEngine.dir/src/codeOpenGL/ImageOpenGL.obj CMakeFiles/myEngine.dir/src/Unit.obj
+build libmyEngine.dll libmyEngine.dll.a: CXX_SHARED_LIBRARY_LINKER__myEngine_Debug CMakeFiles/myEngine.dir/src/EngineApp.obj CMakeFiles/myEngine.dir/src/EngineWindow.obj CMakeFiles/myEngine.dir/src/codeGLFW/WindowGLFW.obj CMakeFiles/myEngine.dir/src/Renderer.obj CMakeFiles/myEngine.dir/src/codeOpenGL/RendererOpenGL.obj CMakeFiles/myEngine.dir/src/Shader.obj CMakeFiles/myEngine.dir/src/codeOpenGL/ShaderOpenGL.obj CMakeFiles/myEngine.dir/src/Image.obj CMakeFiles/myEngine.dir/src/codeOpenGL/ImageOpenGL.obj CMakeFiles/myEngine.dir/src/HappyEvents.obj CMakeFiles/myEngine.dir/src/Unit.obj
   LANGUAGE_COMPILE_FLAGS = -g
   LINK_LIBRARIES = -lglfw  -lglad  -lstbi  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\myEngine.dir

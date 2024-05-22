@@ -1,6 +1,7 @@
 #pragma once
-#include "myEngine.h"
 #include<iostream>
+#include "myEngine.h"
+
 class BasicGame: public Engine::EngineApp {
 public:
 	BasicGame();

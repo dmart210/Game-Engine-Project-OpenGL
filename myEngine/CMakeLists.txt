@@ -31,7 +31,7 @@ set(SOURCE_FILES
         src/codeOpenGL/ShaderOpenGL.cpp
         src/Image.cpp
         src/codeOpenGL/ImageOpenGL.cpp
-        src/HappyEvents.h
+        src/HappyEvents.cpp
         src/Unit.cpp
     )
 
@@ -53,6 +53,7 @@ if(MSVC)
 endif()
 
 target_include_directories(myEngine PRIVATE ../glfw/include)
+target_include_directories(myEngine PRIVATE ../myEngine/src)
 target_include_directories(myEngine PRIVATE ../glad/include)
 target_include_directories(myEngine PRIVATE ../stbi)
 
